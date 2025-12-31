@@ -1,1 +1,36 @@
+body, html{
+  height: 100%;
+  margin: 0;
+}
 
+body {
+  background-image: url(tux.png);
+  background-size: 70px;
+  display: flex;
+  align-items: center;
+}
+section
+{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 70vh;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  margin-top: 50px;
+
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 40px black;
+  
+}
+
+section h1
+{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+section img{
+  width: 80%;
+  margin: 0 auto;
+}
