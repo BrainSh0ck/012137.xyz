@@ -38,6 +38,8 @@ section img {
 #zyd {
   animation: flash 0.5s infinite;
   font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  
 }
 
 
