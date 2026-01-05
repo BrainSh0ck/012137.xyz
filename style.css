@@ -1,4 +1,5 @@
-body, html{
+body,
+html {
   height: 100%;
   margin: 0;
 }
@@ -9,8 +10,8 @@ body {
   display: flex;
   align-items: center;
 }
-section
-{
+
+section {
   display: flex;
   flex-direction: column;
   background-color: rgba(255, 255, 255, 0.7);
@@ -22,15 +23,31 @@ section
 
   backdrop-filter: blur(5px);
   box-shadow: 0px 0px 40px black;
-  
+
 }
 
-section h1
-{
+section h1 {
   font-family: 'Times New Roman', Times, serif;
 }
 
-section img{
+section img {
   width: 80%;
   margin: 0 auto;
+}
+
+#zyd {
+  animation: flash 0.5s infinite;
+  font-weight: bolder;
+}
+
+
+
+@keyframes flash {
+  from {
+    color: red;
+  }
+
+  to {
+    color: white;
+  }
 }
