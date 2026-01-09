@@ -1,0 +1,36 @@
+body,
+html {
+  margin: 0;
+  padding: 10px 0;
+}
+
+body {
+  background-image: url(tux.png);
+  background-size: 70px;
+}
+
+
+
+nav {
+  position: fixed;
+}
+
+nav a {
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: white;
+  box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+  padding: 10px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#top {
+  margin-top: 50px;
+  height: auto;
+  width: 60%;
+  margin: 0 auto;
+  background-color: white;
+}
