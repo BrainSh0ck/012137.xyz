@@ -11,6 +11,22 @@ body {
   display: flex;
 }
 
+nav {
+  position: fixed;
+}
+
+nav a {
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: white;
+  box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+  padding: 10px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+}
+
 section {
   display: flex;
   flex-direction: column;
